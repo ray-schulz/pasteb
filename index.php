@@ -48,10 +48,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' and ($_POST['paste'] or $_POST['text'])
 	elseif ($_POST['text'])
 		header("Location: $PASTE_URL/$row");
 } else {
-	if ($_ENV['REQUEST_URI'] == '/') {
+	if ($_SERVER['REQUEST_URI'] == '/') {
 		include "$PASTE_TEMPLATES/index.php";
 	} else {
-		$uri = explode('/', $_ENV['REQUEST_URI']);
+		$uri = explode('/', $_SERVER['REQUEST_URI']);
 		$PASTE_ID = $uri[1];
 		
 		$PASTE_ID10 = to10($PASTE_ID);
