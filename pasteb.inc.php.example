@@ -3,7 +3,7 @@
 // config file for pasteb
 
 $PASTE_URL = 'http://somewhere.com';
-$PASTE_SOURCE = 'https://github.com/ray-schulz/phpastebucket';
+$PASTE_SOURCE = 'https://github.com/ray-schulz/pasteb';
 $PASTE_TEMPLATES = 'templates';
 
 $PASTE_DB_NAME = 'dbname';
