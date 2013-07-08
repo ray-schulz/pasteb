@@ -4,7 +4,7 @@ pasteb
 paste bucket in php backed by postgres db and using highlight.js 
 from http://softwaremaniacs.org/soft/highlight/en/
 
-see it in action http://paste.keentech.tk
+see it in action http://pasteb.herokuapp.com
 
 be sure to rename pasteb.inc.php.example to pasteb.inc.php and
 configure the stuff accordingly
