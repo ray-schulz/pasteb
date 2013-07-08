@@ -9,6 +9,6 @@ URL='http://pasteb.herokuapp.com'
 $CURL='curl'
 
 # use it like this:
-# $ cat bin/paster.sh | paster.sh 
-#     http://paste.somewhere.com/1
+# $ cat bin/pasteb | pasteb 
+#     http://pasteb.herokuapp.com/1
 $CURL -F 'paste=<-' $URL
