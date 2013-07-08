@@ -1,13 +1,7 @@
 <?php
 
-$PASTE_URL = 'http://somewhere.com';
-$PASTE_SOURCE = 'https://github.com/ray-schulz/phpastebucket';
-$PASTE_TEMPLATES = 'templates';
-
-$PASTE_DB_NAME = 'dbname';
-$PASTE_DB_HOST = 'dbhost';
-$PASTE_DB_USER = 'dbuser';
-$PASTE_DB_PASSWORD = 'dbpassword';
+require "pasteb.inc.php"
+	or die('Config file not found');
 
 /* toBase and to10 from http://stackoverflow.com/a/4964352 */
 function toBase($num, $b=62) {
