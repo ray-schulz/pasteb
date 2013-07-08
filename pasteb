@@ -3,7 +3,7 @@
 # put this script somewhere like $HOME/bin or /usr/local/bin
 
 # set this to your paste bucket
-URL='http://paste.somewhere.com'
+URL='http://pasteb.herokuapp.com'
 
 # if curl is in some odd place, set this accordinly
 $CURL='curl'
